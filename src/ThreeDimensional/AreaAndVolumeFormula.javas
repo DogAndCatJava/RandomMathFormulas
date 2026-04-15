@@ -143,7 +143,8 @@ public class AreaAndVolumeFormulas {
         if (WhichFormula == 6) {
             SurfaceAreaTrianglePrism();
         }
-
+        if (WhichFormula > 6 || WhichFormula < 1) {
+            System.out.println("Dumbass");
+        }
     }
-
 }
